@@ -1,0 +1,4 @@
+train: C:\Users\MY PC\Desktop\mini project\datasets\train
+val: C:\Users\MY PC\Desktop\mini project\datasets\val
+nc: 4
+names: ["damagedcommercialbuilding", "undamagedcommercialbuilding", "undamagedresidentialbuilding", "damagedresidentialbuilding"]

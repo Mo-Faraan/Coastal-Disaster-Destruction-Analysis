@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url('/static/css/images/1.jpg');
+    background-position: center;
+    background-size: cover;
+    /*display: flex;  Set the main container as flex */
+    /*align-items: center;  Center items vertically */
+}
+
+.navbar {
+    max-width: 1000px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    overflow: hidden; /* Clear floats */
+}
+
+.menu {
+    width: 30%;
+    float: left;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    font-size: 1.2vw;
+}
+
+ul li a {
+    text-decoration: saddlebrown;
+    color: grey;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+ul li a:hover {
+    color: rgb(217, 168, 34);
+}
+
+.content {
+    width: 60%; /* Adjusted width for content */
+    color: aliceblue;
+}
+
+.content .par {
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 0;
+    padding-bottom: 2vh;
+    font-size: 1.3vw;
+    letter-spacing: 0.1vw;
+    line-height: 3vh;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 3vw;
+    padding-left: 0;
+    letter-spacing: 0.2vw;
+}
+.cre {
+    position: absolute;
+    top: 50%;
+    right: 5%; /* Adjust as needed */
+    transform: translateY(-50%);
+}
+
+
+form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px; /* Adjusted top margin */
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px); /* Adjusted width for inputs */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.signup-link {
+    margin-top: 10px;
+    color: aliceblue;
+}

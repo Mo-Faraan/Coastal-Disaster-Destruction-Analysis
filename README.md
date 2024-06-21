@@ -16,4 +16,4 @@ The allure of coastal living has drawn people to settle where land meets sea for
                     and machine learning, we seek to develop a model capable of automatically analyzing such imagery to detect 
                     and classify damaged and undamaged infrastructure following natural disasters. This endeavor underscores 
                     our commitment to mitigating the impact of natural disasters on coastal communities and building resilience 
-                    for a sustainable future.
+                    for a safe and sustainable future.
